@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/index.css">
+  <link rel="stylesheet" href="../css/iconfont.css">
+  <title>绿叶学习网 - 给你初恋般的感觉</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <nav class="nav">
+        <img src="../imgs/logo.png" alt="" class="logo">
+        <ul>
+          <li>
+            <a href="#">首页</a>
+            <p></p>
+          </li>
+          <li><a href="#">前端入门</a>
+            <nav class="droplist_course">
+              <a href="#">HTML入门</a>
+              <a href="#">CSS入门</a>
+              <a href="#">JavaScript入门</a>
+              <a href="#">JQuery入门</a>
+              <a href="#">HTML5教程</a>
+              <a href="#">CSS3教程</a>
+            </nav>
+            <p></p>
+          </li>
+          <li><a href="#">前端进阶</a>
+            <nav class="droplist_course">
+              <a href="#">HTML入门</a>
+              <a href="#">CSS入门</a>
+              <a href="#">JavaScript入门</a>
+              <a href="#">JQuery入门</a>
+              <a href="#">HTML5教程</a>
+              <a href="#">CSS3教程</a>
+            </nav>
+            <p></p>
+          </li>
+          <li><a href="#">站长的书</a>
+            <p></p>
+          </li>
+          <li><a href="#">高校板块</a>
+            <p></p>
+          </li>
+          <li><a href="#">学习路线</a>
+            <p></p>
+          </li>
+          <li><a href="#">在线测试</a>
+            <p></p>
+          </li>
+        </ul>
+      </nav>
+      <section class="banner">
+        <div class="bans">
+          <img src="../imgs/banner1.jpg" alt=""><img src="../imgs/banner2.jpg" alt=""><img src="../imgs/banner1.jpg" alt=""><img src="../imgs/banner2.jpg" alt="">
+        </div>
+        <div class="banner_dots">
+          <div class="banner_dot dot_active" data-x="1"></div>
+          <div class="banner_dot"></div>
+          <div class="banner_dot"></div>
+          <div class="banner_dot"></div>
+        </div>
+      
+      </section>
+      <div class="pre_arrow" onclick="btn_move(0)">
+        <div class="pre"></div>
+      </div>
+      <div class="next_arrow" onclick="btn_move(1)">
+        <div class="next"></div>
+      </div>
+    </header>
+    <!--  -->
+    <section class="course">
+      <h2><span></span> 在线教程<span></span> </h2>
+      <p>在这里，我们只提供让你眼前一亮的精品</p>
+      <section class="course_items">
+        <div class="course_item">
+          <img src="../imgs/course1.jpg" alt="">
+          <p><span>初</span>HTML入门</p>
+        </div>
+        <div class="course_item">
+          <img src="../imgs/course2.jpg" alt="">
+          <p><span>初</span>CSS入门</p>
+        </div>
+        <div class="course_item">
+          <img src="../imgs/course3.jpg" alt="">
+          <p><span>初</span>HTML入门</p>
+        </div>
+        <div class="course_item">
+          <img src="../imgs/course4.jpg" alt="">
+          <p><span>初</span>HTML入门</p>
+        </div>
+        <div class="course_item">
+          <img src="../imgs/course5.jpg" alt="">
+          <p><span>初</span>HTML入门</p>
+        </div>
+        <div class="course_item">
+          <img src="../imgs/course6.jpg" alt="">
+          <p><span>初</span>HTML入门</p>
+        </div>
+        <div class="course_item">
+          <img src="../imgs/course7.jpg" alt="">
+          <p><span>初</span>HTML入门</p>
+        </div>
+        <div class="course_item">
+          <img src="../imgs/course8.jpg" alt="">
+          <p><span>初</span>HTML入门</p>
+        </div>
+      </section>
+    </section>
+    <!-- 书 -->
+    <section class="book course">
+      <h2><span></span>系列图书<span></span></h2>
+      <p>上百家高校选为教材，数十万初学者的选择</p>
+      <section class="book_items">
+        <div class="book_item">
+          <div class="book_item_intro">
+            <img src="../imgs/book1.png" alt="">
+            <div class="book_item_instruction">
+              <h2>ES6快速上手</h2>
+              <p>中级 · 14章 · 234页</p>
+              <span>可能是最好的ES6入门书</span>
+            </div>
+          </div>
+          <div class="book_item_operate">
+            <span><a href="#">尝鲜试读</a></span>
+            <span><a href="#">配套资源</a> </span>
+            <span><a href="#">立即购买</a></span>
+          </div>
+        </div>
+        <div class="book_item">
+          <div class="book_item_intro">
+            <img src="../imgs/book2.png" alt="">
+            <div class="book_item_instruction">
+              <h2>HTML+CSS+JavaScript快速上手（视频版）</h2>
+              <p>中级·14章·234页</p>
+              <span>可能是最好的ES6入门书</span>
+            </div>
+          </div>
+          <div class="book_item_operate">
+            <span><a href="#">尝鲜试读</a></span>
+            <span><a href="#">配套资源</a> </span>
+            <span><a href="#">立即购买</a></span>
+          </div>
+        </div>
+        <div class="book_item">
+          <div class="book_item_intro">
+            <img src="../imgs/book3.png" alt="">
+            <div class="book_item_instruction">
+              <h2>HTML+CSS快速上手（视频版）
+                </h2>
+              <p>中级 · 14章 · 234页</p>
+              <span>可能是最好的ES6入门书</span>
+            </div>
+          </div>
+          <div class="book_item_operate">
+            <span><a href="#">尝鲜试读</a></span>
+            <span><a href="#">配套资源</a> </span>
+            <span><a href="#">立即购买</a></span>
+          </div>
+        </div>
+        <div class="book_item">
+          <div class="book_item_intro">
+            <img src="../imgs/book4.png" alt="">
+            <div class="book_item_instruction">
+              <h2>JavaScript快速上手（视频版）</h2>
+              <p>中级 · 14章 · 234页</p>
+              <span>可能是最好的ES6入门书</span>
+            </div>
+          </div>
+          <div class="book_item_operate">
+            <span><a href="#">尝鲜试读</a></span>
+            <span><a href="#">配套资源</a> </span>
+            <span><a href="#">立即购买</a></span>
+          </div>
+        </div>
+        <div class="book_item">
+          <div class="book_item_intro">
+            <img src="../imgs/book5.png" alt="">
+            <div class="book_item_instruction">
+              <h2>CSS进阶之旅</h2>
+              <p>中级 · 14章 · 234页</p>
+              <span>可能是最好的ES6入门书</span>
+            </div>
+          </div>
+          <div class="book_item_operate">
+            <span><a href="#">尝鲜试读</a></span>
+            <span><a href="#">配套资源</a> </span>
+            <span><a href="#">立即购买</a></span>
+          </div>
+        </div>
+        <div class="book_item">
+          <div class="book_item_intro">
+            <img src="../imgs/book6.png" alt="">
+            <div class="book_item_instruction">
+              <h2>jQuery快速上手</h2>
+              <p>中级 · 14章 · 234页</p>
+              <span>可能是最好的ES6入门书</span>
+            </div>
+          </div>
+          <div class="book_item_operate">
+            <span><a href="#">尝鲜试读</a></span>
+            <span><a href="#">配套资源</a> </span>
+            <span><a href="#">立即购买</a></span>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!-- 关于网站、读者评价 -->
+    <section class="about_evaluate">
+      <aside class="web_about">
+        <img src="../imgs/rabbit.gif" alt="">
+        <h2>网站简介</h2>
+        <p>绿叶学习网成立于2015.4.1，是
+          一个放荡不羁、极具个性的网站。
+          在这里，我们只提供能够让你眼前
+          一亮的教程、图书、视频等。
+          </p>
+      </aside>
+      <section class="reader_evaluate">
+        <h1>10000+读者&emsp;&emsp;5000+评价</h1>
+        <section class="evaluate_body">
+          <aside class="time_line">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </aside>
+          <section class="evaluate_items">
+            <section class="evaluate_item">
+              <section class="avatar">
+                <img src="../imgs/avatar1.png" alt="avatar">
+                <p class="name">貂蝉</p>
+              </section>
+              <section class="comment">
+                <p>我很久没看到过这么好的教程了，网上很多教程都在讲芝麻，没有基础根本学不会。但是绿叶感
+                  觉很不-样,讲得非常通俗易懂。之前我跑了几趟图书馆也没有找到这么好的教程。
+                </p>
+              </section>
+            </section>
+            <section class="evaluate_item">
+              <section class="avatar">
+                <img src="../imgs/avatar2.png" alt="avatar">
+                <p class="name">小众</p>
+              </section>
+              <section class="comment">
+                <p>看到现在的学习网站，这是我看过最高效，最精炼的HTML学习网站了。下一批肯定会造就很多前端人士。
+                </p>
+              </section>
+            </section>
+            <section class="evaluate_item">
+              <section class="avatar">
+                <img src="../imgs/avatar3.png" alt="avatar">
+                <p class="name">格局</p>
+              </section>
+              <section class="comment">
+                <p>讲得非常详细，其他什么乱七八糟的网站讲得太简单了，前面还好理解后面的就看得懵了。这个作者不错支持一下！希望后面的知识也能讲得这么神奇！
+                </p>
+              </section>
+            </section>
+            <section class="evaluate_item">
+              <section class="avatar">
+                <img src="../imgs/avatar4.png" alt="avatar">
+                <p class="name">重楼萧客</p>
+              </section>
+              <section class="comment">
+                <p>站长深谙学习之道，就是把陌生概念和生活经验做对接，避免“知识的诅咒”，说白了就是要有很多恰切的比喻作为桥梁，thanks a lot！——认知心理学&编程爱好者
+                </p>
+              </section>
+            </section>
+          </section>
+        </section>
+      </section>
+    </section>
+    <!-- 友情链接 -->
+    <section class="friendly_link">
+      <span>友情链接</span>
+      <div>
+        <a href="#" word="七空幻音">七空幻音</a> 
+      </div>
+    </section>
+    <!-- footer -->
+    <footer>
+      <ul >
+        <li><a href="#" word="关于绿叶">关于绿叶</a></li>
+        <li><a href="#" word="版权声明">版权声明</a></li>
+        <li><a href="#" word="联系我们">联系我们</a></li>
+        <li><a href="#" word="广告服务">广告服务</a></li>
+        <li><a href="#" word="意见反馈">意见反馈</a></li>
+      </ul>
+      <p>版权声明：本站所有教程均为原创，版权所有，禁止转载和抄袭，否则必追究法律责任。 </p>
+      <p><a href="#">粤ICP备15029970号-1</a></p>
+      <p>Copyright ©2015-2022 绿叶学习网(www.lvyestudy.com), All Rights Reserved</p>
+    </footer>
+    <!-- 侧边固定工具栏 -->
+    <aside class="toolbar">
+      <div>
+        <span class="message" word="官方Q群">&#xe691;</span>
+      </div>
+      <img src="../imgs/q_group_qr.jpg" alt="qr">
+      <div>
+        <span class="question" word="常见问题">&#xe604;</span>
+      </div>
+      <div>
+        <span class="back_to_top" onclick="back_to_top()" word="回到顶部">&#xe647;</span>
+      </div>
+    </aside>
+    <div class="progress">
+      <div class="inside"></div>
+    </div>
+    <!-- 雪花效果 -->
+    <div class="snows">
+    </div>
+  </div>
+  <script>
+    //获取nav下的所有li元素
+    let lis = document.getElementsByClassName('nav')[0].children[1].children
+    //渐变色颜色集合
+    let colors = [
+          {
+            start: '255,238,238',
+            end: '255,255,255'
+          },
+          {
+            start: '237,248, 222',
+            end: '255,255,255'
+          },
+          {
+            start: '225,241,251',
+            end: '255,255,255'
+          },
+          {
+            start: '254,245, 235',
+            end: '255,255,255'
+          },
+          {
+            start: '234,255, 254',
+            end: '255,255,255'
+          },
+          {
+            start: '238,247,239',
+            end: '255,255,255'
+          },
+          {
+            start: '250,242, 254',
+            end: '255,255,255'
+          },
+          {
+            start: '',
+            end: '255,255,255'
+          }
+        ]
+    for (let i = 0; i < lis.length; i++) { // 给每个li绑定事件
+      lis[i].onmouseover = function () {
+        document.getElementsByTagName('header')[0].style.backgroundImage = 'linear-gradient(rgb(' + colors[i].start +'), rgb(' + colors[i].end + '))'
+      }
+      lis[i].onmouseout = function(){
+        document.getElementsByTagName('header')[0].style.backgroundImage = 'linear-gradient(rgb(230, 247, 239), rgb(255, 255, 255))'
+      }
+    }
+
+    //轮播图
+    let margin = 0
+    let ban_index = 0
+    let bans_len = document.getElementsByClassName('bans')[0].children.length
+    let dots = document.getElementsByClassName('banner_dots')[0].children
+    document.getElementsByClassName('bans')[0].style.width=bans_len*1000 +'px'
+    function btn_move(flag){ //轮播图播放（上一页/下一页）
+      if(flag == 0 && margin <= 0){ //上一页
+        margin += 1000
+        dots[ban_index].className = 'banner_dot'
+        console.log(dots[ban_index])
+        ban_index -= 1
+        if(margin >= 1000){
+          margin = -(bans_len-1)*1000
+          ban_index = bans_len-1
+        }
+        dots[ban_index].className = 'banner_dot dot_active'
+      }
+      else if(flag == 1 && margin <= 0){ //下一页
+        margin -= 1000
+        dots[ban_index].className = 'banner_dot'
+        ban_index += 1
+        if(margin < -1000*(bans_len-1))
+        {
+          document.getElementsByClassName('bans')[0].style.transition = 'none'
+          margin = 0
+          ban_index = 0
+        }
+        dots[ban_index].className = 'banner_dot dot_active'
+      }
+      document.getElementsByClassName('bans')[0].style.marginLeft = margin +'px'
+      setTimeout(() => {
+        document.getElementsByClassName('bans')[0].style.transition = 'all .3s ease-in-out'
+      }, 4);
+    }
+
+    //轮播图定时器
+    let timer = setInterval(() => {
+      btn_move(1)
+    }, 2000);
+    
+    //鼠标
+    document.getElementsByClassName('bans')[0].onmouseover = function(){
+      clearInterval(timer)
+    }
+    document.getElementsByClassName('bans')[0].onmouseout=function(){
+        timer = setInterval(() => {
+        btn_move(1)
+      }, 2000);
+    }
+
+    //鼠标点击圆点
+    for(let i = 0; i < dots.length; i++){
+      dots[i].onclick = function(){
+        dots[ban_index].className = 'banner_dot'
+        ban_index = i
+        dots[ban_index].className = 'banner_dot dot_active'
+        margin = -i*1000
+        document.getElementsByClassName('bans')[0].style.marginLeft = margin +'px'
+      }
+    }
+
+
+    //雪花随机飘落的位置
+    let snows = document.getElementsByClassName('snows')[0].children
+
+    //创建雪花节点
+    for(let i = 0; i < 20; i++){
+      let snow_node = document.createElement('span')
+      snow_node.style.left = 0+i*50*Math.random()+'px'
+      snow_node.className = 'snow'
+      snow_node.innerHTML = '&#xe6e0'
+      document.getElementsByClassName('snows')[0].appendChild(snow_node)
+    }
+    for(let i = 0; i < snows.length; i++){
+      let random = Math.random()*8
+      snows[i].style.animationDelay = random + 's'
+    }
+
+    //侧边固定工具栏的隐藏显示控制
+    window.onscroll = function(){
+      if(window.scrollY > 250){
+        document.getElementsByClassName('toolbar')[0].style.opacity = 1
+      }else{
+        document.getElementsByClassName('toolbar')[0].style.opacity = scrollY*0.004
+      }
+    }
+
+    function back_to_top(){
+      scrollTo(0, 0)
+    }
+
+  </script>
+</body>
+
+</html>
